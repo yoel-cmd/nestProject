@@ -13,7 +13,7 @@ export class AuthController {
   }
 
 
-  @Get()
+  @Get('singing')
   Signing(@Req() req: Request) {
     const token = req.headers['authorization']
     return this.authService.Signing(token);

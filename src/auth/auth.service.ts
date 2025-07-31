@@ -18,7 +18,7 @@ export class AuthService {
     if (!passDb || !val) {
       throw new UnauthorizedException('Invalid credentials');
     }
-    const payload = { sub: passDb.id, username: passDb.username };
+    const payload = { sub: passDb.role, username: passDb.username };
     return {
       access_token: await this.jwtService.signAsync(payload),
     };

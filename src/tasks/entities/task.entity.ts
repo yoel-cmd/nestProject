@@ -3,14 +3,10 @@ import { Column, Entity, PrimaryGeneratedColumn, BaseEntity } from 'typeorm'
 @Entity('tasks')
 export default class Task extends BaseEntity {
     @PrimaryGeneratedColumn()
-    Location: string
+    id: number
 
     @Column()
-    Start_time: Date
+    Description: string
 
-    @Column()
-    End_time: Date
-
-    @Column()
-    id_soldier: number
+   
 }
