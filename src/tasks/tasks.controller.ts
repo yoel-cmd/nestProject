@@ -1,11 +1,13 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards } from '@nestjs/common';
 import { TasksService } from './tasks.service';
-import { UpdateTaskDto } from './dto/update-task.dto';
-import {CreateTaskDto} from './dto/create-task.dto'
+import { CreateTaskDto } from './dto/create-task.dto';
+import { JwtAuthGuard } from 'src/common/guards/roles/jwt.guard';
+import { RolesGuard } from 'src/common/guards/roles/roles.guard';
 
+@UseGuards(JwtAuthGuard,RolesGuard)
 @Controller('tasks')
 export class TasksController {
-  constructor(private readonly tasksService: TasksService) {}
+  constructor(private readonly tasksService: TasksService) { }
 
   @Post('create-task')
   create(@Body() createTaskDto: CreateTaskDto) {
@@ -20,11 +22,6 @@ export class TasksController {
   @Get('get/:id')
   async findOne(@Param('id') id: string) {
     return await this.tasksService.findOne(+id);
-  }
-
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateTaskDto: UpdateTaskDto) {
-    return this.tasksService.update(+id, updateTaskDto);
   }
 
   @Delete('delete/:id')
