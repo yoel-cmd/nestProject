@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./i" width="100" height="100" style="border-radius: 50%;" />
+  <img src="./imege/profile.png" width="100" height="100" style="border-radius: 50%;" />
   <br>
   <h1>🔒 SecureNest – Guarded Military Backend</h1>
 </p>
