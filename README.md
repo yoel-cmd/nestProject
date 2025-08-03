@@ -1,14 +1,7 @@
-# <p align="center">
 
-<a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-
-</p>
-
-<p align="center">A NestJS-based backend project for managing military shifts, users, and missions. Built with TypeORM and secured with JWT authentication and role-based access.</p>
-
----
 
 ## 📂 Project Structure
+
 
 ```
 src/
@@ -88,33 +81,10 @@ npm install
 
 ### Run the App
 
-```bash
-# Development
-npm run start
-
 # Watch mode (auto reload)
 npm run start:dev
 ```
 
----
-
-## 🧪 Example curl requests
-
-### Login
-
-```bash
-curl -X POST http://localhost:3000/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"username": "yoel", "password": "1234"}'
-```
-
-### Create a New User (Soldier/Commander)
-
-```bash
-curl -X POST http://localhost:3000/users \
-  -H "Content-Type: application/json" \
-  -d '{"username": "newUser", "password": "pass123", "role": "soldier"}'
-```
 
 ---
 
@@ -122,29 +92,12 @@ curl -X POST http://localhost:3000/users \
 
 This project is currently used for local development only.
 
----
-
-## 🧠 Developer Notes
-
-* Built using NestJS framework
-* Organized by modules (feature-based structure)
-* Database structure can be found inside your MySQL/phpMyAdmin instance
-
----
-
-## 📎 GitHub
-
-Project repository: [https://github.com/yoel-cmd/nestProject](https://github.com/yoel-cmd/nestProject)
-
----
-
-## ✍️ Author
 
 **Yoel Eder**
 A highly motivated full-stack developer passionate about backend security and military tech.
 
 ---
 
-## 🪪 License
+
 
 This project is licensed under the MIT License.
