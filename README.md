@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./image/test.png" width="100" height="100" style="border-radius: 50%;" />
+  <img src="./image/test.png" width="100%" />
   <br>
-
-<h1>🔒 SecureNest – Guarded Military Backend</h1>
 
 </div>
 
