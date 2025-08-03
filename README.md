@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="./images/profile.jpg" width="80" style="border-radius: 8px;">
+<img src="./image/profile.jpg.png" width="80" style="border-radius: 8px;">
 </p>
 
 
