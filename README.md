@@ -146,11 +146,6 @@ Project repository: [https://github.com/yoel-cmd/nestProject](https://github.com
 
 ---
 
-## ✍️ Author
-
-<p align="left">
-  <img src="https://i.imgur.com/KbzDh6N.jpeg" width="80" style="border-radius: 6px;">
-</p>
 
 **Yoel Eder**
 A highly motivated full-stack developer passionate about backend security and military tech.
