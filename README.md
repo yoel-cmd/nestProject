@@ -5,12 +5,6 @@
 <h1>🔒 SecureNest – Guarded Military Backend</h1>
 
 </div>
-
-  
-<p align="right">
-  <img src="https://i.imgur.com/KbzDh6N.jpeg" width="80" style="border-radius: 8px;">
-</p>
-
 #
 
 ---
