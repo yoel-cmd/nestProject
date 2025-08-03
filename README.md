@@ -1,6 +1,12 @@
 <p align="center">
   <img src="./image/profile.png" width="100" height="100" style="border-radius: 50%;" />
   <br>
+  <div style="background-color:#2b2b2b; padding: 10px; border-radius: 8px; text-align:center; color: white;">
+
+<h1>🔒 SecureNest – Guarded Military Backend</h1>
+
+</div>
+
   <h1>🔒 SecureNest – Guarded Military Backend</h1>
 </p>
 
