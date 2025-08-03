@@ -1,10 +1,12 @@
-<p align="right">
-  <img src="./image/profile.jpg.png" width="80" style="border-radius: 50%;">
-</p>
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
 
-<h1 align="center" style="font-family: Arial, sans-serif; font-weight: bold;">
-  🛡️ NestJS Guarded Military Backend
-</h1>
+  <img src="./image/profile.jpg.png" width="80" style="border-radius: 50%;">
+
+  <h1 style="font-family: 'Segoe UI', sans-serif; font-size: 2.5em; margin: 0;">
+    🛡️ SecureNest - Guarded Military Backend
+  </h1>
+
+</div>
 
 
 #
