@@ -7,9 +7,15 @@
 </div>
 
   
+<p align="right">
+  <img src="https://i.imgur.com/KbzDh6N.jpeg" width="80" style="border-radius: 8px;">
+</p>
+
+#
+
+---
 
 ## 📂 Project Structure
-
 
 ```
 src/
@@ -89,10 +95,40 @@ npm install
 
 ### Run the App
 
+```bash
+# Development
+npm run start
+
 # Watch mode (auto reload)
 npm run start:dev
 ```
 
+---
+
+## 🧪 Example curl requests
+
+### Login
+
+```bash
+curl -X POST http://localhost:3000/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"username": "yoel", "password": "1234"}'
+```
+
+### Validate JWT (Signing)
+
+```bash
+curl -X GET http://localhost:3000/auth/signing \
+  -H "Authorization: Bearer YOUR_TOKEN"
+```
+
+### Create a New User (Soldier/Commander)
+
+```bash
+curl -X POST http://localhost:3000/users \
+  -H "Content-Type: application/json" \
+  -d '{"username": "newUser", "password": "pass123", "role": "soldier"}'
+```
 
 ---
 
@@ -100,12 +136,34 @@ npm run start:dev
 
 This project is currently used for local development only.
 
+---
+
+## 🧠 Developer Notes
+
+* Built using NestJS framework
+* Organized by modules (feature-based structure)
+* Database structure can be found inside your MySQL/phpMyAdmin instance
+
+---
+
+## 📌 GitHub
+
+Project repository: [https://github.com/yoel-cmd/nestProject](https://github.com/yoel-cmd/nestProject)
+
+---
+
+## ✍️ Author
+
+<p align="left">
+  <img src="https://i.imgur.com/KbzDh6N.jpeg" width="80" style="border-radius: 6px;">
+</p>
 
 **Yoel Eder**
 A highly motivated full-stack developer passionate about backend security and military tech.
 
 ---
 
-
+## 🌐 License
 
 This project is licensed under the MIT License.
+
