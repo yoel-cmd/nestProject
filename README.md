@@ -139,7 +139,7 @@ Project repository: [https://github.com/yoel-cmd/nestProject](https://github.com
 ---
 
 
-**Yoel Eder**
+**Yoel Ider**
 A highly motivated full-stack developer passionate about backend security and military tech.
 
 ---
