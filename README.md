@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="./image/test.png" width="100%" />
-  <br>
-
-</div>
 
 ---
 
